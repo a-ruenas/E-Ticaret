@@ -1,4 +1,4 @@
-﻿namespace E_Ticaret.DataAccessLayer
+﻿namespace ClassLibrary1
 {
     public class Class1
     {
