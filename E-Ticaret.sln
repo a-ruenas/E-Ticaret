@@ -5,6 +5,12 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Ticaret", "E-Ticaret\E-Ticaret.csproj", "{EC64EFF9-083F-459F-BED1-99F5800A2ADF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Ticaret.Entities", "E-Ticaret.Entities\E-Ticaret.Entities.csproj", "{C3F451DC-00D5-4D42-9324-8124F75ACA58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Ticaret.BusinessLogicLayer", "E-Ticaret.BusinessLogicLayer\E-Ticaret.BusinessLogicLayer.csproj", "{E773053D-0D3D-4274-BFFF-5C773D4D2621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Ticaret.DataAccessLayer", "E-Ticaret.DataAccessLayer\E-Ticaret.DataAccessLayer.csproj", "{CAF490C0-51DC-40FD-8393-FDB035820EED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{EC64EFF9-083F-459F-BED1-99F5800A2ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC64EFF9-083F-459F-BED1-99F5800A2ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC64EFF9-083F-459F-BED1-99F5800A2ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F451DC-00D5-4D42-9324-8124F75ACA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F451DC-00D5-4D42-9324-8124F75ACA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F451DC-00D5-4D42-9324-8124F75ACA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F451DC-00D5-4D42-9324-8124F75ACA58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E773053D-0D3D-4274-BFFF-5C773D4D2621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E773053D-0D3D-4274-BFFF-5C773D4D2621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E773053D-0D3D-4274-BFFF-5C773D4D2621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E773053D-0D3D-4274-BFFF-5C773D4D2621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF490C0-51DC-40FD-8393-FDB035820EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF490C0-51DC-40FD-8393-FDB035820EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF490C0-51DC-40FD-8393-FDB035820EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF490C0-51DC-40FD-8393-FDB035820EED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
