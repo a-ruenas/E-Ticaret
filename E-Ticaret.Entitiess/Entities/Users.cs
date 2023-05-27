@@ -1,4 +1,5 @@
-﻿using System;
+﻿using E_Ticaret.Entitiess.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -17,5 +18,11 @@ namespace E_Ticaret.Entities
         public string Password { get; set; }
         public string Email { get; set; }
         public bool IsAdmin { get; set; }
+        public virtual Carts Cart { get; set; }
+        public virtual List<PaymentMethods> PaymentMethods { get; set; }
+        public Users()
+        {
+            PaymentMethods = new List<PaymentMethods>();
+        }
     }
 }

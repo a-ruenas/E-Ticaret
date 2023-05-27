@@ -13,7 +13,7 @@ namespace E_Ticaret.Entitiess
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public List<Products> Products { get; set; }
+        public virtual List<Products> Products { get; set; }
         public Categories()
         {
             Products = new List<Products>();

@@ -11,7 +11,7 @@ namespace E_Ticaret.Entities
     public class Images
     {
         public int Id { get; set; }
-        public Products Product { get; set; }
+        public virtual Products Product { get; set; }
         public string ImageAdress { get; set; }
     }
 }

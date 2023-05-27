@@ -15,7 +15,7 @@ namespace E_Ticaret.Entities
         public string Name { get; set; }
         public decimal Price { get; set; }
         public string Description { get; set; }
-        public List<Images> Images { get; set; }
+        public virtual List<Images> Images { get; set; }
         public Products()
         {
             Images = new List<Images>();

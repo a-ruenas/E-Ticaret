@@ -51,14 +51,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Categories.cs" />
+    <Compile Include="Entities\Images.cs" />
+    <Compile Include="Entities\Carts.cs" />
+    <Compile Include="Entities\Products.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserLogs.cs" />
-    <Compile Include="Users.cs" />
+    <Compile Include="Logs\UserLogs.cs" />
+    <Compile Include="Entities\Users.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
