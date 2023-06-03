@@ -54,7 +54,15 @@
     <Compile Include="Entities\Categories.cs" />
     <Compile Include="Entities\Images.cs" />
     <Compile Include="Entities\Carts.cs" />
+    <Compile Include="Entities\Orders.cs" />
+    <Compile Include="Entities\PaymentMethods.cs" />
     <Compile Include="Entities\Products.cs" />
+    <Compile Include="Logs\BaseLog.cs" />
+    <Compile Include="Logs\CategoryLogs.cs" />
+    <Compile Include="Logs\ImageLogs.cs" />
+    <Compile Include="Logs\OrderLogs.cs" />
+    <Compile Include="Logs\PaymentMethodLogs.cs" />
+    <Compile Include="Logs\ProductLogs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Logs\UserLogs.cs" />
     <Compile Include="Entities\Users.cs" />
